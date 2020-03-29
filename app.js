@@ -11,9 +11,7 @@ function newItem()
 
 document.body.onkeyup = function(e) 
 {
-  const fs = require('fs')
-  let data = "Learning how to write in a file."
-  fs.writeFile('list.txt', data)
+
   if (e.keyCode == 13) 
   {
     newItem();
