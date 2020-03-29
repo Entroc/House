@@ -14,6 +14,7 @@
   <body>
     <input id="input" placeholder="What needs to be done?" />
     <ul id="list"></ul>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTeGD9xkZCDPGvSJgN2i3Sxbzd46TGZNYB8K_YVLEZ7vubcdhh-J6iiyMu52diQVJoGVdiGQEYB3CoG/pub?embedded=true"></iframe>
   </body>
   <script src="app.js"></script>
 </html>
