@@ -1,4 +1,7 @@
-## TEST
+## List for items to get from Grocery
+## Type what you want to add, press enter to add to the list
+## Click on the item to remove it from the list... Gonna try to make this strikethrough but no idea how to do that right now
+
 <html>
   <head>
     <meta charset="utf-8" />
