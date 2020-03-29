@@ -1,4 +1,5 @@
-function newItem() {
+function newItem() 
+{
   var item = document.getElementById("input").value;
   var ul = document.getElementById("list");
   var li = document.createElement("li");
@@ -8,12 +9,18 @@ function newItem() {
   li.onclick = removeItem;
 }
 
-document.body.onkeyup = function(e) {
-  if (e.keyCode == 13) {
+document.body.onkeyup = function(e) 
+{
+  const fs = require('fs')
+  let data = "Learning how to write in a file."
+  fs.writeFile('list.txt', data, (err) =>
+  if (e.keyCode == 13) 
+  {
     newItem();
   }
 };
 
-function removeItem(e) {
+function removeItem(e) 
+{
   e.target.parentElement.removeChild(e.target);
 }
